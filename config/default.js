@@ -3,7 +3,6 @@ var cache = require('koa-router-cache')
 var MemoryCache = cache.MemoryCache
 
 module.exports = {
-  wildcard: '_',
   port: process.env.PORT || 3001,
   mongodb: {
     url: 'mongodb://localhost:27017/club'
@@ -11,7 +10,10 @@ module.exports = {
   schemeConf: path.join(__dirname, './default.scheme'),
   staticCacheConf: path.join(__dirname, '../theme/publices'),
   renderConf: path.join(__dirname, '../theme/config'),
-  routerConf: 'routes',
+  routerConf: {
+    wildcard: '_',
+    root: 'routes'
+  },
   routerCacheConf: {
     'GET /': {
       key: 'cache:index',
