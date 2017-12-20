@@ -4,7 +4,7 @@
   "description": "a koa project",
   "main": "app.js",
   "scripts": {
-    "start": "set NODE_ENV=default && node --harmony app",
+    "start": "node --harmony app",
     "preinstall": "cd theme && npm install"
   },
   "dependencies": {
