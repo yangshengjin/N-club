@@ -1,0 +1,36 @@
+{
+  "name": "n-club",
+  "version": "0.0.1",
+  "description": "a koa project",
+  "main": "app.js",
+  "scripts": {
+    "start": "set NODE_ENV=default && node --harmony app",
+    "preinstall": "cd theme && npm install"
+  },
+  "dependencies": {
+    "co-cache": "2.3.0",
+    "co-ejs": "1.5.2",
+    "config-lite": "^2.1.0",
+    "koa": "1.2.4",
+    "koa-bodyparser": "2.3.0",
+    "koa-errorhandler": "0.1.1",
+    "koa-flash": "1.0.0",
+    "koa-frouter": "0.5.0",
+    "koa-generic-session": "1.11.4",
+    "koa-generic-session-mongo": "0.3.1",
+    "koa-gzip": "0.1.0",
+    "koa-logger": "1.3.0",
+    "koa-router-cache": "2.0.0",
+    "koa-scheme": "2.2.1",
+    "koa-static-cache": "3.1.7",
+    "merge-descriptors": "1.0.1",
+    "mongolass": "^3.1.5",
+    "mongoose": "4.2.9",
+    "validator": "6.2.0"
+  },
+  "author": "",
+  "license": "ISC",
+  "engines": {
+    "node": ">=4"
+  }
+}
