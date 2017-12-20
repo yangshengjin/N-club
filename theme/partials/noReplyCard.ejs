@@ -1,6 +1,5 @@
-<% var noReplyTopics = yield $Topic.getNoReplyTopics() %>
-
-  <div class="ui cards">
+<div class="ui cards">
+  <% var noReplyTopics = yield $Topic.getNoReplyTopics() %>
     <div class="card">
       <div class="content">
         <b>无人回复的话题</b>
@@ -14,4 +13,4 @@
         </div>
       </div>
     </div>
-  </div>
+</div>
