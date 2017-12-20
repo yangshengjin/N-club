@@ -1,6 +1,9 @@
 # 目录结构
 
 * bin/start：启动脚本
+
+  # 该项目必须安装 Redis,并且开启 Redis 服务才能启动
+
 * config/：存放配置文件的目录，default.scheme.js 为 koa-scheme 所用
 * lib/：存放一般代码文件的目录
 * models/：存放模型文件的目录
