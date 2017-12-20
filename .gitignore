@@ -22,3 +22,5 @@ node_modules/
 theme/node_modules
 
 book
+package-lock.json
+theme/package-lock.json

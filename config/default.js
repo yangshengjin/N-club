@@ -4,7 +4,7 @@ var MemoryCache = cache.MemoryCache
 
 module.exports = {
   wildcard: '_',
-  port: process.env.PORT || 3000,
+  port: process.env.PORT || 3001,
   mongodb: {
     url: 'mongodb://localhost:27017/club'
   },
